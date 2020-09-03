@@ -1,0 +1,1051 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Instagram Feed Gallery\n"
+"POT-Creation-Date: 2020-06-15 22:14-0300\n"
+"PO-Revision-Date: 2019-08-09 08:43-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: insta-gallery.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/api.php:275
+msgid "Please provide a valid #tag"
+msgstr ""
+
+#: includes/api.php:306 includes/apiV2.php:188
+msgid "Unknow error occurred, please try again"
+msgstr ""
+
+#: includes/compatibility.php:357
+msgid "Please update Instagram User in the gallery settings tab."
+msgstr ""
+
+#: includes/compatibility.php:365
+msgid "Please update Instagram Access Token in the account settings tab."
+msgstr ""
+
+#: includes/controllers/AccountController.php:29
+msgid "Accounts"
+msgstr ""
+
+#: includes/controllers/AccountController.php:48
+msgid "Empty access account"
+msgstr ""
+
+#: includes/controllers/AccountController.php:58
+msgid ""
+"Account already connected. To connect a new account logout from Instagram in "
+"this browser."
+msgstr ""
+
+#: includes/controllers/AccountController.php:61
+msgid "Access account created"
+msgstr ""
+
+#: includes/controllers/AccountController.php:79
+msgid "Account removed successfully"
+msgstr ""
+
+#: includes/controllers/AccountController.php:94
+msgid "Do you want to delete the account?"
+msgstr ""
+
+#: includes/controllers/FeedController.php:12
+msgid "Feeds"
+msgstr ""
+
+#: includes/controllers/FeedController.php:29
+msgid "All"
+msgstr ""
+
+#: includes/controllers/FeedController.php:119
+msgid "Feed cache cleared"
+msgstr ""
+
+#: includes/controllers/FeedController.php:146
+#: includes/controllers/FeedController.php:147
+msgid "Do you want to delete the feed?"
+msgstr ""
+
+#: includes/controllers/PremiumController.php:9 includes/notices.php:119
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:29
+#: includes/view/backend/pages/premium.php:5
+msgid "Premium"
+msgstr ""
+
+#: includes/controllers/QLIGG_Controller.php:14
+msgid "Please, reload page"
+msgstr ""
+
+#: includes/controllers/QLIGG_Controller.php:18
+msgid "Access denied"
+msgstr ""
+
+#: includes/controllers/SettingController.php:12
+msgid "Setting"
+msgstr ""
+
+#: includes/controllers/SettingController.php:39
+msgid "Settings updated successfully"
+msgstr ""
+
+#: includes/controllers/SettingController.php:42
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/controllers/SuggestionsController.php:9
+msgid "Suggestions"
+msgstr ""
+
+#: includes/controllers/WelcomeController.php:21
+msgid "Welcome"
+msgstr ""
+
+#: includes/frontend.php:63
+msgid "Invalid item id"
+msgstr ""
+
+#: includes/frontend.php:269
+#, php-format
+msgid "The layout %s is not a available."
+msgstr ""
+
+#: includes/helpers.php:71
+msgid "This token expires soon!"
+msgstr ""
+
+#: includes/helpers.php:147
+msgid "Please update Instagram User in the feed settings."
+msgstr ""
+
+#: includes/helpers.php:160
+msgid "Please update Instagram Access Token in the account settings."
+msgstr ""
+
+#: includes/helpers.php:221
+msgid "Please update Instagram Tag in the feed settings."
+msgstr ""
+
+#: includes/models/Suggestions.php:110
+msgid "Search Results"
+msgstr ""
+
+#: includes/models/Suggestions.php:113
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr ""
+
+#: includes/models/Suggestions.php:115
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr ""
+
+#: includes/models/Suggestions.php:116
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr ""
+
+#: includes/models/Suggestions.php:117
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr ""
+
+#: includes/models/Suggestions.php:118
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr ""
+
+#: includes/notices.php:75
+msgid "Important! Update tokens required"
+msgstr ""
+
+#: includes/notices.php:77
+msgid ""
+"Instagram is deprecating their old API for Personal accounts on June 29, "
+"2020. The plugin supports their new API, however, some features are not yet "
+"available in their new API. "
+msgstr ""
+
+#: includes/notices.php:79
+msgid ""
+"You may also experience some API limits in the tags feeds. We're working on "
+"the fix that will require a business or creator Instagram account."
+msgstr ""
+
+#: includes/notices.php:82
+msgid "More Info!"
+msgstr ""
+
+#: includes/notices.php:85
+msgid "Update Tokens"
+msgstr ""
+
+#: includes/notices.php:120
+msgid "Settings"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:7
+#: includes/view/backend/pages/accounts.php:8
+msgid "Add New Account"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:11
+msgid "Button not working?"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:12
+msgid "(This is a premium feature)."
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:19
+#: includes/view/backend/pages/feeds.php:14
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:17
+msgid "Image"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:20
+#: includes/view/backend/pages/modals/feed/panel-feed.php:22
+msgid "User"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:21
+#: includes/view/backend/pages/feeds.php:15
+msgid "ID"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:22
+#: includes/view/backend/pages/feeds.php:18
+msgid "Name"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:23
+#: includes/view/backend/pages/feeds.php:16
+#: includes/view/backend/pages/modals/feed/panel-feed.php:11
+msgid "Type"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:24
+msgid "Expires"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:25
+msgid "Token"
+msgstr ""
+
+#: includes/view/backend/pages/accounts.php:26
+#: includes/view/backend/pages/feeds.php:21
+msgid "Action"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:4
+msgid "+ Feed"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:6
+msgid "Save reorder"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:8
+#: includes/view/backend/pages/modals/account/main.php:40
+#: includes/view/backend/pages/modals/feed/main.php:38
+msgid "Saved successfully!"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:17
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:14
+msgid "Feed"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:19
+msgid "Layout"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:20
+msgid "Shortcode"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:69
+#: includes/view/backend/pages/modals/feed/main.php:18
+msgid "Edit feed"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:69
+msgid "Edit"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:70
+msgid "Clear feed cache"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:70
+msgid "Cache"
+msgstr ""
+
+#: includes/view/backend/pages/feeds.php:71
+msgid "Delete feed"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:7
+#: includes/view/backend/pages/modals/feed/main.php:15
+msgid "Close dialog"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:10
+msgid "Manually connect an account"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:20
+msgid "Account ID:"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:21
+msgid "Enter a user id"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:22
+#: includes/view/backend/pages/modals/account/main.php:27
+msgid "Get access token"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:25
+msgid "Account Token"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:26
+msgid "Enter a valid access token"
+msgstr ""
+
+#: includes/view/backend/pages/modals/account/main.php:45
+#: includes/view/backend/pages/modals/feed/main.php:43
+#: includes/view/backend/pages/settings.php:64
+msgid "Save"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/main.php:12
+msgid "Edit previous media item"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/main.php:13
+msgid "Edit next media item"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/main.php:18
+msgid "New"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/main.php:49
+msgid "Close"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:5
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:14
+msgid "Box"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:7
+msgid "Display the Instagram Feed inside a customizable box"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:8
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:17
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:24
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:31
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:40
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:46
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:16
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:25
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:34
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:40
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:57
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:35
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:44
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:51
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:58
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:71
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:78
+#: includes/view/backend/pages/modals/feed/panel-feed.php:70
+#: includes/view/backend/pages/modals/feed/panel-feed.php:77
+#: includes/view/backend/pages/modals/feed/panel-feed.php:106
+#: includes/view/backend/pages/modals/feed/panel-feed.php:112
+#: includes/view/backend/pages/modals/feed/panel-feed.php:118
+msgid "(This is a premium feature)"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:14
+msgid "Box padding"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:16
+msgid "Add padding to the Instagram Feed"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:21
+msgid "Box radius"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:23
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:43
+msgid "Add radius to the Instagram Feed"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:28
+msgid "Box background"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:30
+msgid "Color which is displayed on box background"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:37
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:11
+msgid "Profile"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:39
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:15
+msgid "Display user profile or tag info"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:43
+msgid "Profile description"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-box.php:45
+msgid "Box description here"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:5
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:5
+msgid "Instagram button"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:7
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:7
+msgid "Display the button to open Instagram site link"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:10
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:10
+msgid "Instagram button text"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:12
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:12
+msgid "Instagram button text here"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:17
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:17
+msgid "Instagram button background"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:19
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:19
+msgid "Color which is displayed on button background"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:22
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:22
+msgid "Instagram button hover background"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-button-load.php:24
+#: includes/view/backend/pages/modals/feed/panel-feed-button.php:24
+msgid "Color which is displayed when hovered over button"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:5
+msgid "Slides per view"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:7
+msgid "Number of images per slide"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:12
+msgid "Autoplay"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:14
+msgid "Autoplay carousel items"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:19
+msgid "Autoplay Interval"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:21
+msgid "Moves to next picture after specified time interval"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:26
+msgid "Navigation"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:28
+msgid "Display navigation arrows"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:33
+msgid "Navigation color"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:35
+msgid "Change navigation arrows color"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:40
+msgid "Pagination"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:42
+msgid "Display pagination dots"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:47
+msgid "Pagination color"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-carousel.php:49
+msgid "Change pagination dotts color"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:5
+msgid "Images mask"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:7
+msgid "Image mouseover effect"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:13
+msgid "Images mask color"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:16
+msgid "Color which is displayed when displayed over images"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:22
+msgid "Images mask likes"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:24
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:33
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:70
+msgid "Display likes count of images"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:28
+msgid "Images mask comments"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-mask.php:30
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:39
+msgid "Display comments count of images"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:5
+msgid "Images popup"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:7
+msgid "Display popup gallery by clicking on image"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:13
+msgid "Images popup profile"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:22
+msgid "Images popup caption"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:24
+msgid "Display caption in the popup"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:31
+msgid "Images popup likes"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:37
+msgid "Images popup comments"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:49
+msgid "Images popup align"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:51
+msgid "Left"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:52
+msgid "Right"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:53
+msgid "Bottom"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:54
+msgid "Top"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image-popup.php:56
+msgid "Align item description in popup"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:5
+msgid "Images resolution"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:7
+msgid "Standard"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:8
+msgid "Medium"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:9
+msgid "Small"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:24
+msgid "Images spacing"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:26
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:64
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:84
+msgid "Add blank space between images"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:32
+msgid "Images card"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:34
+msgid "Display card gallery by clicking on image"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:41
+msgid "Card radius"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:48
+msgid "Card font size"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:50
+msgid "Add font-size to the Instagram Feed"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:55
+msgid "Card background"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:57
+msgid "Color which is displayed when over images"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:62
+msgid "Card padding"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:68
+msgid "Card info"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:75
+msgid "Card caption"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:77
+msgid "Display caption count of images"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-image.php:82
+msgid "Card length"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:10
+msgid "Saved."
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:22
+#: includes/view/backend/pages/settings.php:42
+msgid "Upload"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:30
+#: includes/view/backend/pages/parts/header.php:10
+msgid "Documentation"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:38
+msgid "Full Name"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:40
+msgid "Feed profile full name"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:46
+msgid "Description"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed-profile.php:47
+msgid "Feed profile description"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:13
+#: includes/view/backend/pages/modals/feed/panel-feed.php:32
+msgid "Tag"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:15
+msgid "User name"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:29
+msgid "Please enter Instagram username"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:36
+msgid "Please enter Instagram tag"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:47
+#, php-format
+msgid ""
+"No Instagram account connected. Please connect your account <a target="
+"\"_blank\" href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:59
+msgid "Gallery"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:64
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:7
+msgid "Carousel"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:69
+msgid "Masonry"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:76
+msgid "Highlight"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:87
+msgid "Limit"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:89
+msgid "Number of images to display"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:95
+msgid "Columns"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:97
+msgid "Number of images in a row"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:103
+msgid "Highlight by tag"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:105
+msgid "Highlight feeds items with this tags"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:109
+msgid "Highlight by id"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:111
+msgid "Highlight feeds items with this ids"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:115
+msgid "Highlight by position"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-feed.php:117
+msgid "Highlight feeds items in this positions"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:3
+msgid "General"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:20
+msgid "Image mask"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:23
+msgid "Image popup"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:26
+msgid "Button"
+msgstr ""
+
+#: includes/view/backend/pages/modals/feed/panel-tabs.php:29
+msgid "Button load more"
+msgstr ""
+
+#: includes/view/backend/pages/parts/header.php:5
+#, php-format
+msgid ""
+"Thanks for using %s! We will do our best to offer you the best and improved "
+"communication experience with your users."
+msgstr ""
+
+#: includes/view/backend/pages/parts/header.php:8
+msgid "Purchase"
+msgstr ""
+
+#: includes/view/backend/pages/parts/header.php:9
+#: includes/view/backend/pages/welcome.php:12
+msgid "Demo"
+msgstr ""
+
+#. Author of the plugin/theme
+#: includes/view/backend/pages/parts/header.php:26
+msgid "QuadLayers"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:7
+#, php-format
+msgid ""
+"Unlock the power of our premium %s plugin which allows you to add unlimited "
+"Instagram accounts and offers you more layout options."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:10
+msgid "Purchase Now"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:11
+#: includes/view/backend/pages/welcome.php:16
+msgid "View demo"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:15
+msgid "Multiple accounts"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:17
+msgid ""
+"Include unlimited user accounts and create feeds galleries for different "
+"users with their own layout and settings."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:21
+msgid "Customize colors"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:23
+msgid ""
+"Customize the colors of the Instagram Feed with a custom background, "
+"padding, and a rounded border. It also includes the user or tag profile info "
+"in the header of the box."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:27
+msgid "Load more button"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:29
+msgid ""
+"Allow your users to load more images in the gallery providing an improved "
+"user experience."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:44
+msgid "More content"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:46
+msgid "Include some extra content for the images and the images popup."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:51
+msgid "Popup content"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:53
+msgid ""
+"Our premium version allows you to include some extra content in the image "
+"popup, like the user profile, the image caption, and the number of comments "
+"and likes."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:61
+msgid "Layouts"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:63
+msgid ""
+"Unlock the power of the masonry and highlight layouts that allows you to "
+"display the Instagram Feeds in a grid that supports items of variable size."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:68
+msgid "Masonry layout"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:70
+msgid ""
+"The masonry layout is a grid that displays the images with a fixed with and "
+"variable height size."
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:74
+msgid "Highlight layout"
+msgstr ""
+
+#: includes/view/backend/pages/premium.php:76
+msgid ""
+"The highlight layout is a masonry grid that allows you to stand out some "
+"images with two or three columns width size."
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:10
+msgid "Feeds cache"
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:14
+msgid "Reset your Instagram feeds cache every x hours."
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:19
+msgid "Remove data"
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:23
+msgid "Check this box to remove all data related to this plugin on uninstall."
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:28
+msgid "Replace loader"
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:43
+msgid "Reset Spinner"
+msgstr ""
+
+#: includes/view/backend/pages/settings.php:46
+msgid "Select an image from media library to replace the default loader icon."
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:7
+msgid ""
+"Hello we're QuadLayers! We've recently acquired this plugin. We will do our "
+"absolute best to support it and fix all the issues."
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:14
+#, php-format
+msgid ""
+"Thank you for choosing our %s plugin for WordPress! Here you can see our "
+"demo and test the features we offer in the premium version."
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:19
+msgid "Support"
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:21
+#, php-format
+msgid ""
+"If you have any doubt or you find any issue don't hesitate to contact us "
+"through our ticket system or join our community to meet other %s users."
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:23
+msgid "Submit ticket"
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:26
+msgid "Community"
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:28
+#, php-format
+msgid ""
+"If you want to get in touch with other %s users or be aware of our "
+"promotional discounts join our community now."
+msgstr ""
+
+#: includes/view/backend/pages/welcome.php:30
+msgid "Join our community"
+msgstr ""
+
+#: includes/widget.php:8
+msgid "Displays your Instagram gallery"
+msgstr ""
+
+#: includes/widget.php:45
+msgid "Title"
+msgstr ""
+
+#: includes/widget.php:49
+msgid "Select your Instagram gallery"
+msgstr ""
+
+#: includes/widget.php:62
+#, php-format
+msgid "Feed %s"
+msgstr ""
+
+#: includes/widget.php:70
+msgid ""
+"Please add new gallery in plugin admin panel, then come back and select your "
+"gallery to here."
+msgstr ""
+
+#: includes/widget.php:74
+msgid "Add New Gallery"
+msgstr ""
+
+#: templates/alert.php:2
+msgid "Unable to get results"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Social Feed Gallery"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://quadlayers.com/portfolio/instagram-feed-gallery/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display beautiful and responsive galleries on your website from your "
+"Instagram feed account."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://quadlayers.com"
+msgstr ""
