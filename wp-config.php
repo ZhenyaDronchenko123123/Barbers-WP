@@ -21,24 +21,24 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', '/home/u271619410/domains/barbers.by/public_html/wp-content/plugins/wp-super-cache/' );
-define( 'DB_NAME', 'u271619410_barbers' );
+define( 'WPCACHEHOME', ABSPATH . '/wp-content/cache/supercache' );
+define( 'DB_NAME', 'exampledb');
 
 /** MySQL database username */
-define( 'DB_USER', 'u271619410_barbersperson' );
+define( 'DB_USER', 'exampleuser');
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'D~EUT+ud|xG66EkmkC4r|$' );
+define( 'DB_PASSWORD', 'examplepass');
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db');
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8');
 
 
 /** The Database Collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+define( 'DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -49,14 +49,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         '539141c88db88b1513bd96893e873bb54cc00fcd');
+define( 'SECURE_AUTH_KEY',  '4e98deda8eec4951b3f20914584bdfe787349d3b');
+define( 'LOGGED_IN_KEY',    '1c7028f71c5ff89f5cf8f1a0f46580c898412854');
+define( 'NONCE_KEY',        '1de960534009568e52cb5b84bcd44319397efa47');
+define( 'AUTH_SALT',        'c785dbd044b58028e43a40ca72f3ef5cf92b4eec');
+define( 'SECURE_AUTH_SALT', 'a636fd632d348daf29f1a5721a619066d05d84b4');
+define( 'LOGGED_IN_SALT',   'cf95d8e54c1af3f9120fb4d2b1041a34ad06df71');
+define( 'NONCE_SALT',       '57c98a38ada065d60dddb7d566beb2f717c87656');
 
 /**#@-*/
 

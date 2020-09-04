@@ -42,25 +42,7 @@
                 <p>На любую из услуг Барберс Вы можете приобрести подарочный сертификат или абонемент - отличный подарок для любого мужчины.</p>
             </div>
         </section>
-        <section class="reviews">
-            <div class="container">
-                <h2>Отзывы наших клиентов</h2>
-                <div class="owl-carousel owl-theme">
-                    <?php
-                        global $posts;
-                        $args = array(
-                            'post_type' => 'reviews',
-                            'publish' => true
-                        );
-                        $slider_review = get_posts($args);
-                        foreach ($slider_review as $post){
-                            include( get_template_directory() . '/content_reviewslider.php');
-                        }
-                        wp_reset_postdata();
-                    ?>
-                </div>
-            </div>
-        </section>
+        <?php $city = 'all'; include 'content_reviewslider.php' ?>
         <section class="sign-up">
             <div class="overlay"></div>
             <img src="<? echo get_template_directory_uri()?>/img/record.jpg" alt="">

@@ -218,6 +218,6 @@ $cptArgsCoursesTer = array(
 }
 add_theme_support ('post-thumbnails');
 
-
+include ABSPATH . WPINC. '/YClients.php';
 
 
