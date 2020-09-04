@@ -82,7 +82,7 @@
                             <br>
                             <br>
                             Только практикующие мастера с программой без лишней «воды».</p>
-                        <a href="http://barbers-by.preview-domain.com/courses/">Узнать подробности</a>
+                        <a href="<?=get_site_url(null, 'courses')?>">Узнать подробности</a>
                     </div>
                 </div>
             </div>

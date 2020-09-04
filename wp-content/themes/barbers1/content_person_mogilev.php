@@ -14,7 +14,7 @@ $descriptmog = get_post_meta(get_the_ID(), 'descriptionofskillsmogilev', true );
                 <span><?=$positionmog?></span>
                 <p><?=$descriptmog?></p>
             </div>
-            <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target:"_blank">Онлайн запись</a>
+            <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target="_blank">Онлайн запись</a>
             <img src="<?php the_field('photosmallmogilev'); ?>" alt="">
         </div>
     </div>

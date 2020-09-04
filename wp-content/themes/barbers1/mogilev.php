@@ -56,7 +56,7 @@
                         <li><span>ПН-ВС: 10:00-21:00</span></li>
                     </ul>
                     <div class="button-item">
-                        <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target:"_blank";>Онлайн запись</a>
+                        <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target="_blank";>Онлайн запись</a>
                         <div class="hamburger-menu">
                             <input id="menu__toggle" type="checkbox" />
                             <label class="menu__btn" for="menu__toggle">
@@ -64,10 +64,10 @@
                             </label>
                             <ul class="menu__box">
                                 
-                                    <li><a class="menu__item" href="http://barbers-by.preview-domain.com/gomel/">Barber's Гомель</a></li>
-                                    <li><a class="menu__item" href="http://barbers-by.preview-domain.com/vitebsk/">Barber's Витебск</a></li>
-                                    <li><a class="menu__item" href="http://barbers-by.preview-domain.com/mogilev/">Barber's Могилёв</a></li>
-                                    <li><a class="menu__item" href="http://barbers-by.preview-domain.com/courses/">Академия Barber's</a></li>
+                                    <li><a class="menu__item" href="<?=get_site_url(null, 'gomel')?>">Barber's Гомель</a></li>
+                                    <li><a class="menu__item" href="<?=get_site_url(null, 'vitebsk')?>">Barber's Витебск</a></li>
+                                    <li><a class="menu__item" href="<?=get_site_url(null, 'mogilev')?>">Barber's Могилёв</a></li>
+                                    <li><a class="menu__item" href="<?=get_site_url(null, 'courses')?>">Академия Barber's</a></li>
                                     <li><a class="menu__item" href="https://www.kiviclean.by/">Чистка обуви Kivi Clean</a></li>
                             </ul>
                         </div>
@@ -81,7 +81,7 @@
                         <h1><?php the_field('taglinemogilev'); ?></h1>
                         <p><?php the_field('textmogilev'); ?></p>
                     </div>
-                    <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target:"_blank">Онлайн запись</a>
+                    <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target="_blank">Онлайн запись</a>
                 </div>
             </div>
         </div>
@@ -237,7 +237,7 @@
             <div class="sign-up-content">
                 <h5><?php the_field('titleblocktitlemogilev'); ?></h5>
                 <p><?php the_field('destitmogilev'); ?></p>
-                <ahref="https://n28956.yclients.com/company:84442/idx:0/master#1" target:"_blank">Онлайн запись</a>
+                <a href="https://n28956.yclients.com/company:84442/idx:0/master#1" target="_blank">Онлайн запись</a>
             </div>
         </section>
         <section class="discover">
@@ -250,7 +250,7 @@
                     <div class="details">
                         <p><?php the_field('learningdescriptionmogilev'); ?></p>
 
-                        <a href="http://barbers-by.preview-domain.com/courses/" target:"_blank">Узнать подробности</a>
+                        <a href="<?=get_site_url(null, 'courses')?>" target="_blank">Узнать подробности</a>
                     </div>
                 </div>
             </div>
@@ -300,7 +300,7 @@
                         <h5>Наше приложение:</h5>
                         <a href="https://play.google.com/store/apps/details?id=com.yclients.mobile.g10610" target="_blank"><img src="<? echo get_template_directory_uri()?>/img/google.jpg" alt=""></a>
                         <a href="https://apps.apple.com/us/app/barbers-%D1%81%D1%82%D1%80%D0%B8%D0%B6%D0%BA%D0%B8-%D0%B8-%D0%B1%D1%80%D0%B8%D1%82%D1%8C%D1%91/id1351063163?l=ru&ls=1" target="_blank"><img src="<? echo get_template_directory_uri()?>/img/app.jpg" alt=""></a>
-                        <a class="online" href="https://n28956.yclients.com/company:84442/idx:0/master#1" target:"_blank">Онлайн запись</a>
+                        <a class="online" href="https://n28956.yclients.com/company:84442/idx:0/master#1" target="_blank">Онлайн запись</a>
                     </div>
                 </div>
             </div>
