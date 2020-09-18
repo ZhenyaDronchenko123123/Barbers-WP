@@ -21,9 +21,16 @@
                 foreach ($comments as $comment) {
                     ?>
                     <div class="item">
-                        <h4>
-                            <?=$comment['user_name']?>
-                        </h4>
+                        <?php if (!empty($comment['user_name'])): ?>
+                            <h4>
+                                Клиент: <?=$comment['user_name']?>
+                            </h4>
+                        <?php endif;?>
+                        <?php if (!empty($comment['master']['name'])): ?>
+                            <h4>
+                                Сотрудник: <?=$comment['master']['specialization']?> <?=$comment['master']['name']?>
+                            </h4>
+                        <?php endif;?>
                         <span>
                             <?=DateTime::createFromFormat('Y-m-d H:i:s', $comment['date'])->format('j M Y')?>
                         </span>

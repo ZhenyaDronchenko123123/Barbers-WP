@@ -31,6 +31,14 @@ class YClients
             $reviews = [];
 
             foreach ($companyIds as $companyId) {
+                $workersResponse = wp_remote_get("https://api.yclients.com/api/v1/company/${companyId}/staff/", [
+                    'headers' => [
+                        'Content-Type'  => 'application/json',
+                        'Authorization' => "Bearer {$this->partnerToken}, User {$this->getUserToken()}",
+                    ],
+                ]);
+                $workersBody     = json_decode(wp_remote_retrieve_body($workersResponse), true);
+
                 $commentsResponse = wp_remote_get("https://api.yclients.com/api/v1/comments/${companyId}/", [
                     'headers' => [
                         'Content-Type'  => 'application/json',
@@ -38,6 +46,13 @@ class YClients
                     ],
                 ]);
                 $commentsBody     = json_decode(wp_remote_retrieve_body($commentsResponse), true);
+                $commentsBody     = array_map(static function (array $comment) use ($workersBody) {
+                    $comment['master'] = current(array_filter($workersBody['data'], static function (array $worker) use ($comment) {
+                        return (int) $worker['id'] === (int) $comment['master_id'];
+                    }));
+
+                    return $comment;
+                }, $commentsBody);
 
                 $reviews = array_merge($reviews, $commentsBody);
             }
