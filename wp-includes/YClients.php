@@ -42,6 +42,15 @@ class YClients
                 $reviews = array_merge($reviews, $commentsBody);
             }
 
+            /**
+             * Filter reviews where words amount greater than 6.
+             */
+            $reviews = array_filter($reviews, static function (array $review) {
+                $spacesCount = substr_count($review['text'], ' ');
+
+                return $spacesCount > 6;
+            });
+
             if (count($companyIds) > 1) {
                 usort($reviews, static function (array $a, array $b) {
                     return strtotime($b['date']) <=> strtotime($a['date']);
