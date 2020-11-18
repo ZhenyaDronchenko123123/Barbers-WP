@@ -1,2 +1,2 @@
-# Barbers-WP
+# Barbers.by
 Barbers WP
