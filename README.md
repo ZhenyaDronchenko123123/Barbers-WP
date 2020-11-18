@@ -1,2 +1,2 @@
 # Barbers.by
-Barbers.by
+https://barbers.by/
